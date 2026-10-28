@@ -1869,10 +1869,6 @@ h4 {
   .enquiry-banner_left {
     max-width: 38rem;
   }
-
-  .enquiry-banner_actions {
-    width: auto;
-  }
 }
 
 .enquiry-banner_title {
@@ -1888,6 +1884,15 @@ h4 {
   text-align: center;
   gap: 1.25rem;
   width: 100%;
+}
+
+@media (min-width: 651px) {
+  .enquiry-banner_actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+  }
 }
 
 .enquiry-banner_actions .btn-architectural {
